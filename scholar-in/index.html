@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <section class="h-100 h-custom" style="background-color: #2096BB;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-8 col-xl-6">
+              <div class="card rounded-3">
+                <img src="https://www.gettingsmart.com/wp-content/uploads/2017/01/College-Students-Using-Laptops-Feature-Image.jpg"
+                  class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+                  alt="Sample photo">
+                <div class="card-body p-4 p-md-5">
+                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Registration Form</h3>
+      
+                  <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required> <br>
+                </div>
+                <div class="form-group">
+                    <label>Sex:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sex" id="male" value="Male" required>
+                        <label class="form-check-label" for="male">Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sex" id="female" value="Female">
+                        <label class="form-check-label" for="female">Female</label>
+                    </div> <br>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" class="form-control" id="dob" required>
+                </div> <br>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+                </div> <br>
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number" required>
+                </div> <br>
+                <div class="form-group">
+                    <label for="addressProvince">Address (Province):</label>
+                    <select class="form-control" id="addressProvince" required>
+                        <option value="Agusan del Norte">Agusan del Norte</option>
+                        <option value="Agusan del Sur">Agusan del Sur</option>
+                        <option value="Dinagat Islands">Dinagat Islands</option>
+                        <option value="Surigao del Norte">Surigao del Norte</option>
+                        <option value="Surigao del Sur">Surigao del Sur</option>
+                    </select>
+                </div> <br>
+                <div class="form-group">
+                    <label for="addressCity">Municipality/City:</label>
+                    <input type="text" class="form-control" id="addressCity" placeholder="Enter your municipality/city" required>
+                </div> <br>
+                <div class="form-group">
+                    <label for="eduLevel">Current Educational Level:</label>
+                    <select class="form-control" id="eduLevel" required>
+                        <option value="Elementary">Elementary</option>
+                        <option value="Junior High School">Junior High School</option>
+                        <option value="Senior High School">Senior High School</option>
+                        <option value="College">College</option>
+                    </select>
+                </div> <br>
+                <div class="form-group">
+                    <label for="course">Course:</label>
+                    <input type="text" class="form-control" id="course" placeholder="Enter your course">
+                </div> <br>
+                <div class="form-group">
+                    <label for="yearLevel">Year Level:</label>
+                    <input type="number" class="form-control" id="yearLevel" placeholder="Enter your year level">
+                </div> <br>
+                <div class="form-group">
+                    <label for="grade">Grade:</label>
+                    <input type="text" class="form-control" id="grade" placeholder="Enter your grade">
+                </div> <br>
+                <div class="form-group">
+                    <label for="familyIncome">Family Annual Income:</label>
+                    <input type="text" class="form-control" id="familyIncome" placeholder="Enter your family annual income">
+                </div> <br>
+                <div class="form-group">
+                    <label for="citizenship">Citizenship:</label>
+                    <input type="text" class="form-control" id="citizenship" placeholder="Enter your citizenship">
+                </div> <br>
+                <div class="form-group">
+                    <label for="about">About:</label>
+                    <textarea class="form-control" id="about" rows="4" placeholder="Write a brief description about yourself"></textarea>
+                </div> <br>
+                <div class="form-group">
+                    <label for="image">Profile:</label>
+                    <input type="file" class="form-control-file" id="image">
+                </div> <br>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter a username" required>
+                </div> <br>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter a password" required>
+                </div> <br>
+      
+                    <button type="submit" class="btn btn-success btn-lg mb-1">Submit</button>
+      
+                  </form>
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+ 
+  </body>
+</html>

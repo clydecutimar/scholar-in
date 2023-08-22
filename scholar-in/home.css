@@ -1,0 +1,66 @@
+.page-container {
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+  }
+  
+  header {
+    padding: 20px 20px;
+  }
+  
+  .center-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  button {
+    margin-right: 60px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes animate {
+    0%, 100% {
+      background-image: url(image1.png);
+    }
+    25% {
+      background-image: url(image2.png);
+    }
+    50% {
+      background-image: url(image3.png);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .page-container {
+      background-size: contain;
+    }
+  
+    .center-buttons {
+      flex-direction: column;
+    }
+  
+    button {
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .page-container {
+      background-size: cover;
+    }
+  
+    .center-buttons {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    button {
+      margin-right: 0;
+    }
+  }  
